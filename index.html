@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Timezone Clock</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Global Time</h1>
+        <div class="clocks-grid">
+            <div class="clock-card" data-timezone="America/New_York">
+                <div class="city-name">New York</div>
+                <div class="time">--:--:--</div>
+                <div class="timezone">EST/EDT</div>
+            </div>
+            <div class="clock-card" data-timezone="Europe/London">
+                <div class="city-name">London</div>
+                <div class="time">--:--:--</div>
+                <div class="timezone">GMT/BST</div>
+            </div>
+            <div class="clock-card" data-timezone="Europe/Paris">
+                <div class="city-name">Paris</div>
+                <div class="time">--:--:--</div>
+                <div class="timezone">CET/CEST</div>
+            </div>
+            <div class="clock-card" data-timezone="Asia/Tokyo">
+                <div class="city-name">Tokyo</div>
+                <div class="time">--:--:--</div>
+                <div class="timezone">JST</div>
+            </div>
+            <div class="clock-card" data-timezone="Asia/Dubai">
+                <div class="city-name">Dubai</div>
+                <div class="time">--:--:--</div>
+                <div class="timezone">GST</div>
+            </div>
+            <div class="clock-card" data-timezone="Australia/Sydney">
+                <div class="city-name">Sydney</div>
+                <div class="time">--:--:--</div>
+                <div class="timezone">AEDT/AEST</div>
+            </div>
+            <div class="clock-card" data-timezone="Asia/Hong_Kong">
+                <div class="city-name">Hong Kong</div>
+                <div class="time">--:--:--</div>
+                <div class="timezone">HKT</div>
+            </div>
+            <div class="clock-card" data-timezone="America/Los_Angeles">
+                <div class="city-name">Los Angeles</div>
+                <div class="time">--:--:--</div>
+                <div class="timezone">PST/PDT</div>
+            </div>
+            <div class="clock-card" data-timezone="America/Chicago">
+                <div class="city-name">Chicago</div>
+                <div class="time">--:--:--</div>
+                <div class="timezone">CST/CDT</div>
+            </div>
+            <div class="clock-card" data-timezone="Asia/Bangkok">
+                <div class="city-name">Bangkok</div>
+                <div class="time">--:--:--</div>
+                <div class="timezone">ICT</div>
+            </div>
+            <div class="clock-card" data-timezone="America/Toronto">
+                <div class="city-name">Toronto</div>
+                <div class="time">--:--:--</div>
+                <div class="timezone">EST/EDT</div>
+            </div>
+            <div class="clock-card" data-timezone="Asia/Singapore">
+                <div class="city-name">Singapore</div>
+                <div class="time">--:--:--</div>
+                <div class="timezone">SGT</div>
+            </div>
+        </div>
+        <div class="local-time">
+            <h2>Your Local Time</h2>
+            <div class="local-clock">
+                <div class="local-display">--:--:--</div>
+                <div class="local-date"></div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
